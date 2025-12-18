@@ -14,7 +14,7 @@ function Login({ onLogin }) {
         setError('');
         setIsLoading(true);
         setTimeout(() => {
-            if (username === 'admin' && password === 'admin123') {
+            if (username === 'admin' && password === 'admin1234') {
                 onLogin();
                 navigate('/dashboard');
             } else {
@@ -109,12 +109,7 @@ function Login({ onLogin }) {
                     </button>
                 </form>
 
-                <div className="login-footer">
-                    <p>
-                        <strong>Credenciales de prueba:</strong><br />
-                        Usuario: <code>admin</code> | Contraseña: <code>admin123</code>
-                    </p>
-                </div>
+
             </div>
         </div>
     );

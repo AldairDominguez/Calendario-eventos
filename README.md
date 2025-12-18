@@ -18,10 +18,10 @@ Una aplicación web moderna que integra un asistente virtual inteligente con Goo
 ## 🖼️ Capturas de Pantalla
 
 ### Dashboard Principal
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./src/assets/screenshots/dashboard.PNG)
 
 ### Chatbot en Acción
-![Chatbot](./screenshots/chatbot.png)
+![Chatbot](./src/assets/screenshots/chatbot.PNG)
 
 ## 🏗️ Arquitectura del Sistema
 
@@ -65,7 +65,7 @@ Este workflow maneja todas las interacciones con el calendario:
 - **UpdateEvent**: Modifica eventos existentes
 - **CreateEvent**: Crea nuevos eventos
 
-![n8n Workflow Calendar](C:/Users/Administrador/.gemini/antigravity/brain/df5f6218-d65a-4c0b-826f-39c18a1c160e/uploaded_image_0_1766078947109.png)
+![n8n Workflow Calendar](./src/assets/screenshots/mpc.PNG)
 
 ### 2. Workflow de Chat - Agente IA
 
@@ -79,7 +79,7 @@ Este workflow procesa las conversaciones con el usuario:
 - **Corregir texto IA**: Formatea la respuesta
 - **Respond to Webhook**: Envía respuesta al frontend
 
-![n8n Workflow Chat](C:/Users/Administrador/.gemini/antigravity/brain/df5f6218-d65a-4c0b-826f-39c18a1c160e/uploaded_image_1_1766078947109.png)
+![n8n Workflow Chat](./src/assets/screenshots/workflow.PNG)
 
 ### Configuración del Webhook en n8n
 
@@ -343,7 +343,7 @@ Las contribuciones son bienvenidas. Por favor:
 
 Para preguntas o sugerencias, contacta a través de:
 - Email: aldair30d@gmail.com
-- LinkedIn: [Aldair Domínguez](https://linkedin.com/in/aldairdominguez)
+- LinkedIn: [Aldair Domínguez](https://www.linkedin.com/in/aldairdz/)
 
 ---
 
